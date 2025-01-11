@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma 1ère page web</title>
+  </head>
+  <body>
+    <!--Exercice 1-->
+    <h1>Ma première page web</h1>
+    <h2>Introduction</h2>
+    <p>Cette page a pour but de m'entraîner à coder en HTML</p>
+    <!--Exercice 2-->
+    <a href="https://developer.mozilla.org">MDN Web Docs</a>
+    <a href="#àpropos">A propos</a>
+    <a name="about">
+    <!--Exercice 3-->
+    <img src="https://www.helloanimaux.fr/wp-content/uploads/2020/01/race-chat-sacre-birmanie-hello-animaux-730x450.jpg" 
+    alt="Image exemple" 
+    width="200" 
+    div style="background-color: black;padding:5px">
+    <!--Exercice 4-->
+    <ul>
+        <li>Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul>
+                <li>PHP</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+    </ul>
+    <!--Exercice 5-->
+    <table border="1">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Âge</th>
+            <th>Pays</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Conrié</td>
+            <td>Clément</td>
+            <td>18</td>
+            <td>France</td>
+          </tr>
+          <tr>
+            <td>Djebabla</td>
+            <td>Ammar</td>
+            <td>28</td>
+            <td>France</td>
+          </tr>
+          <tr>
+            <td>Mao</td>
+            <td>Zedong</td>
+            <td>82</td>
+            <td>Chine</td>
+          </tr>
+        </tbody>
+      </table>
+    <!--Exercice 6-->
+    <form action="/submit" method=""post>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
+    <!--Exercice 7-->
+    <style>
+        .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+        .colonne {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .colonne-gauche {
+        background-color: #f0f0f0;
+      }
+
+      .colonne-droite {
+        background-color: #e0e0e0;
+      }
+
+      h3 {
+        text-align: center;
+      }
+    </style>
+
+    <div class="container">
+        <div class="colonne colonne-gauche">
+          <h3>Mes Objectifs</h3>
+          <ol>
+            <li>Apprendre le développement Web</li>
+            <li>Créer un jeu vidéo en C++</li>
+            <li>Enrichir mon GitHub</li>
+            <li>Trouver un stage</li>
+          </ol>
+        </div>
+  
+        <div class="colonne colonne-droite">
+          <h3>Projets Futurs</h3>
+          <p>
+            J'aimerai apprendre le développement Web que ce soit pour mon interêt personnel, ou pour faire des commissions et me faire de l'argent de poche.
+            J'aimerai également créer un jeu, et par ailleurs apprendre le C++ car c'est un projet que je veux faire depuis longtemps.
+            Enfin, j'aimerai, via les projets que je vais réaliser au fil de l'année, ajouter des éléments à mon GitHub.
+          </p>
+        </div>
+      </div>
+      <!--Exercice 8-->
+      <audio controls>
+        <source src="boblennon.mp3" type="audio/mp3">Bonsoir de Boblennon
+      </audio>
+      <video controls>
+        <source src="polish_cow.mp4" type="video/mp4">Polish cow
+      </video>
+  </body>
+  </html>
